@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_region_recode_glmselect",
+  "source_file": "Model Selection - Linear.sas",
+  "source_blob_sha": "f62e08054dc5cde7de2c61ca3b342d2d0cd65dbd",
+  "source_commit": "973d85ae0fad085aa6b1cccc8285959556118f9c",
+  "notes": "Author's $Sta state-to-region format + HLOFFER CASE recode + PROC GLMSELECT stepwise(select=SL select=cv) model selection, run against a 16-row sample characteristics table standing in for the external ipeds library."
+}

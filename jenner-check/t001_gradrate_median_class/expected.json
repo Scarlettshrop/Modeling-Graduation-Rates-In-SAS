@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-13T07:26:41.292461+00:00",
+  "_captured_run_id": "r_1253f06b2d7c47eaa327658d4febb927",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: FORMAT GRMed defined (2 ranges).",
+    "NOTE: Table GradRates created.",
+    "NOTE: Wrote GradRateUse (7 rows, 4 columns)."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

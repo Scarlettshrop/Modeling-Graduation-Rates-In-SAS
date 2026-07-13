@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_salaries_logistic",
+  "source_file": "Model Selection - Logistic.sas",
+  "source_blob_sha": "f229b7b2ae5d660de6aa771ee379c1c849722cfd",
+  "source_commit": "973d85ae0fad085aa6b1cccc8285959556118f9c",
+  "notes": "Author's salaries computed columns (AvgSalary, Student_Staff_Ratio) + rank=7 filter + PROC LOGISTIC stepwise selection, run against 18-row sample salaries/response tables standing in for the external ipeds library."
+}

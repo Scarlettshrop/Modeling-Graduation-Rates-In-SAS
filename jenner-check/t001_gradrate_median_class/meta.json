@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_gradrate_median_class",
+  "source_file": "Model Selection - Logistic.sas",
+  "source_blob_sha": "f229b7b2ae5d660de6aa771ee379c1c849722cfd",
+  "source_commit": "973d85ae0fad085aa6b1cccc8285959556118f9c",
+  "notes": "Author's GRMed median-cutoff format + Completers/Incoming self-join (cohort Total ge 200) + PROC SORT + PROC FREQ, run against a 16-row sample Graduation table standing in for the external ipeds library."
+}
