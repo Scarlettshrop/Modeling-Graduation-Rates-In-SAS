@@ -1,0 +1,26 @@
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA work.Graduation
+
+NOTE: Processing inline DATALINES (16 lines)
+
+NOTE: Read 16 rows from DATALINES.
+NOTE: Wrote work.Graduation (16 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC FORMAT library=WORK
+
+NOTE: FORMAT GRMed defined (2 ranges).
+NOTE: PROC SQL 
+
+NOTE: Table GradRates created.
+NOTE: PROC SQL statement used.
+NOTE: PROC SORT data=Gradrates
+
+NOTE: Read 7 rows from Gradrates.
+NOTE: Wrote GradRateUse (7 rows, 4 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_gradrate.spec.json
+NOTE: PROC FREQ statement used.

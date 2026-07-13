@@ -1,0 +1,51 @@
+                                     
+---------------------------  --------
+Number of Observations Read        18
+Number of Observations Used        18
+
+            Response Profile            
+Probability modeled is gradrate='Lower' 
+
+Ordered Value  gradrate  Total Frequency
+-------------  --------  ---------------
+            1  Lower                   9
+            2  Upper                   9
+
+                                             
+---------------------------------------------
+Convergence criterion (GCONV=1E-8) satisfied.
+
+The LOGISTIC Procedure
+Response Variable: gradrate
+
+Criterion     Value
+---------  --------
+AIC          18.424
+-2 Log L     14.424
+SC           20.205
+
+            Analysis of Maximum Likelihood Estimates            
+
+Parameter  Estimate  Standard Error  Wald Chi-Square  Pr > ChiSq
+---------  --------  --------------  ---------------  ----------
+Intercept   26.1354         11.5370           5.1318      0.0235
+AvgSalary   -0.4014          0.1765           5.1734      0.0229
+
+                     Odds Ratio Estimates                      
+
+Effect     Point Estimate  95% Wald CL Lower  95% Wald CL Upper
+---------  --------------  -----------------  -----------------
+AvgSalary           0.669              0.474              0.946
+
+      Summary of Stepwise Selection      
+
+    Step  Effect    Variable   Pr > ChiSq
+--------  --------  ---------  ----------
+       1  Entered   AvgSalary      0.0229
+
+Variables Selected
+
+Variable 
+---------
+avgsalary
+

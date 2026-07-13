@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-13T07:26:41.292461+00:00",
+  "_captured_run_id": "r_ccac0b1b056e4f75815bd72cddf9488e",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: FORMAT $Sta defined (52 ranges).",
+    "NOTE: Table CharacteristicsUse created.",
+    "NOTE: PROC GLMSELECT statement used."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-13T07:26:41.292461+00:00",
+  "_captured_run_id": "r_400b68a4ffea477f9803e73e055d9a9a",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Table salariesuse created.",
+    "NOTE: Using Python statsmodels.api.Logit version 0.14.6",
+    "NOTE: PROC LOGISTIC completed. Results written to: ./ods_output/logistic_results.spec.json"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

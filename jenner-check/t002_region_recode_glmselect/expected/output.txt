@@ -1,0 +1,57 @@
+                                                   The FREQ Procedure
+
+                                       Cumulative    Cumulative
+region       Frequency    Percent     Frequency      Percent
+------------------------------------------------------------------
+Midwest              4     25.00            4        25.00
+Northeast            2     12.50            6        37.50
+South                4     25.00           10        62.50
+West                 6     37.50           16       100.00
+
+                                                  Cumulative    Cumulative
+hloffer                 Frequency    Percent     Frequency      Percent
+-----------------------------------------------------------------------------
+Below Master's                  2     12.50            2        12.50
+Doctoral                        6     37.50            8        50.00
+Master's No Doctoral            8     50.00           16       100.00
+The GLMSELECT Procedure
+
+
+Dependent Variable: GRADRATE
+
+
+Number of Observations Used: 16
+
+  Cross Validation Information   
+
+                   Item     Value
+-----------------------  --------
+Cross Validation Method    Random
+        Number of Folds         5
+
+                    Class Level Information                     
+
+   Class    Levels                                        Values
+--------  --------  --------------------------------------------
+ hloffer         3  Below Master's Doctoral Master's No Doctoral
+  region         4                  Midwest Northeast South West
+
+                                                     Stepwise Selection Summary                                                      
+
+    Step    Action          Effect  Number Effects In  R-Square  Adj R-Sq       AIC      AICC       BIC       SBC      C(p)     PRESS
+--------  --------  --------------  -----------------  --------  --------  --------  --------  --------  --------  --------  --------
+       1   Removed    REGION SOUTH                  4    0.7587    0.6709  -90.0245  -84.0245  -84.2345  -86.1616    5.3223    0.0571
+       2   Removed  REGION MIDWEST                  3    0.7374    0.6717  -90.6710  -87.0346  -86.4611  -87.5806    4.3218    0.0534
+
+              Parameter Estimates               
+
+Parameter               Estimate  Standard Error
+----------------------  --------  --------------
+Intercept                0.55125        0.018698
+HLOFFER BELOW MASTER'S  -0.13125        0.041810
+HLOFFER DOCTORAL        0.061250        0.032386
+REGION NORTHEAST        0.097500        0.045800
+
+R-Square            0.7374    Adj R-Sq            0.6717
+
+

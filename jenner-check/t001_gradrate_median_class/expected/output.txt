@@ -1,0 +1,7 @@
+                                                   The FREQ Procedure
+
+                                          Cumulative    Cumulative
+gradrate        Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------------
+Lower Median            4     57.14            4        57.14
+Upper Median            3     42.86            7       100.00
